@@ -1,0 +1,24 @@
+body {
+  width: 300px;
+  height: 400px;
+}
+.body-div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.body-div-login-form {
+  background-color: red;
+}
+.body-div-login-id,
+.body-div-login-password {
+  background-color: gray;
+}
+.body-div-login-button {
+  background-color: blue;
+  margin: 10px;
+}

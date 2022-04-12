@@ -1,6 +1,13 @@
 {
-  "name": "test",
-  "description": "Build an Extension",
+  "name": "avokado",
+  "description": "avokado",
   "version": "1.0",
-  "manifest_version": 3
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "/src/js/background.js"
+  },
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "/src/html/popup.html"
+  }
 }
