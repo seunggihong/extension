@@ -5,11 +5,11 @@
   "description": "My Chrome Extension",
   "icons": {},
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "/serviceworker/background.js"
   },
   "action": {
     "default_title": "Avokado",
-    "default_popup": "popup.html"
+    "default_popup": "/src/popup.html"
   },
   "permissions": ["storage"]
 }
