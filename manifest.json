@@ -3,7 +3,11 @@
   "name": "Avokado",
   "version": "0.1.0",
   "description": "My Chrome Extension",
-  "icons": {},
+  "icons": {
+    "16": "/public/icons/icon16.png",
+    "48": "/public/icons/icon48.png",
+    "128": "/public/icons/icon128.png"
+  },
   "background": {
     "service_worker": "/serviceworker/background.js"
   },
